@@ -21,5 +21,7 @@ namespace AudioItemsWebAPI.Models
 
         public int Price { get; set; }
 
+        public byte[]? Image { get; set; }
+
     }
 }
